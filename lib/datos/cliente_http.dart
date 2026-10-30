@@ -5,7 +5,7 @@ const urlBase = 'http://jsonplaceholder.typecode.com';
 Dio crearDio({
 
   String baseUrl = urlBase,
-  List<Interceptor> interceptores = const [];
+  List<Interceptor> interceptores = const [],
 }) {
   final dio = Dio(
     BaseOptions(
